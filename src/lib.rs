@@ -42,6 +42,7 @@ pub const PROVIDERS: &[Provider] = &[
     Provider { id: "openrouter", label: "OpenRouter", base_url: "https://openrouter.ai/api/v1", vision: true },
     Provider { id: "opencode-zen", label: "OpenCode Zen", base_url: "https://opencode.ai/zen/v1", vision: false },
     Provider { id: "opencode-go", label: "OpenCode GO", base_url: "https://opencode.ai/zen/v1", vision: false },
+    Provider { id: "demonroute", label: "Demon Route", base_url: "https://api.demonroute.com/v1", vision: false },
     Provider { id: "custom", label: "Custom (OpenAI-compatible)", base_url: "", vision: false },
 ];
 
