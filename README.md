@@ -2,7 +2,7 @@
 
 BYOK AI compartilhado da suíte Local: as chaves do próprio usuário, um cliente
 OpenAI-compatible para todos os providers (Gemini, Groq, OpenAI, OpenRouter,
-gateways OpenCode). Nada conversa com servidor nenhum — não existe.
+Demon Route, gateways OpenCode). Nada conversa com servidor nenhum — não existe.
 
 Conexão = preset de provider (base URL editável) + modelo buscado do `/models`
 do próprio provider + segredo no keychain do SO (`keyring`, v1).
